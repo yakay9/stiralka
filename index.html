@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ремонт бытовой техники в Орше</title>
+	<!-- Tailwind -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<!-- Alpine -->
+	<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Custom style -->
+	<link rel="stylesheet" href="css/skilline.css" />
+	<!-- Poppins font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body class="antialiased">
+	<!-- navbar -->
+	<div x-data="{ open: false }" class="w-full text-gray-700 bg-cream">
+        <div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
+            <div class="flex flex-row items-center justify-between py-6">
+                <div class="d1" >
+                    
+					<a href="tel:+375295974142" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">+375(29)597-41-42 </a>
+                </div>
+				<div class="d1" >
+                    
+					<a href="tel:+375336788031" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">
+						+375(33)678-80-31 </a>
+                </div>
+				<div class="d1" >
+                    
+					<a href="tel:+375216567985" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">
+						+375(216)56-79-85 </a>
+                </div>		
+					  
+                    
+                
+                <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                        <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">ГЛАВНАЯ</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">УСЛУГИ</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">СКУПКА</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">КОНТАКТЫ</a>
+                </nav>
+        </div>
+    </div>
+	<div class="bg-cream">
+		<div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
+			<!--Left Col-->
+			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
+				<h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-darken">
+					<span class="text-yellow-500">Ремонт</span>  бытовой техники в Орше
+				</h1>
+				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">СТИРАЛЬНЫЕ МАШИНЫ, ПОСУДОМОЙКИ, ПЫЛЕСОСЫ, ЭЛЕКТРОВОДОНАГРЕВАТЕЛИ</p>
+				
+			</div>
+			<!--Right Col-->
+			<div class="w-full lg:w-6/12 lg:-mt-10 relative" id="girl">
+				<img data-aos="fade-up" data-aos-once="true" class="w-10/12 mx-auto 2xl:-mb-20" src="img/girl.png" />
+				<!-- calendar -->
+				
+				<!-- red -->
+				
+				
+			</div>
+		</div>
+		<div class="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-40 relative">
+			<svg class="xl:h-40 xl:w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+				<path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" fill="currentColor"></path>
+			</svg>
+			<div class="bg-white w-full h-20 -mt-px"></div>
+		</div>
+	</div>
+
+	<!-- container -->
+	<div class="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden">
+
+		
+
+		<!-- All-In-One Cloud Software. -->
+		<div data-aos="flip-up" class="max-w-xl mx-auto text-center mt-24">
+			<h1 class="font-bold text-darken my-3 text-2xl">Делаем быстро качественно гарантия 100%<span class="text-yellow-500">Также с выездом на район!!!</span></h1>
+			<p class="leading-relaxed text-gray-500">  Гарантия на ремонты от 3 до 6 месяцев. Бесплатная диагностика по Орше! Также производим ремонт водонагревателей, микроволновок, пылесосов, посудомоек, мультиварок, стиральных машин. Работаем без выходных с <span class="text-yellow-500">08:00 до 20:00</span></p>
+		</div>
+		<!-- card -->
+		<div class="grid md:grid-cols-3 gap-14 md:gap-5 mt-20">
+			<div data-aos="fade-up" class="bg-white shadow-xl p-6 text-center rounded-xl">
+				<div style="background: #5B72EE;" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
+					<img src="/img/washing-machine.png" alt="" height="40" width="40">
+				</div>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken"><b>Ремонт стиральных машин</b></h1>
+				<p class="px-4 text-gray-500">Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+			</div>
+			
+			<div data-aos="fade-up" data-aos-delay="150" class="bg-white shadow-xl p-6 text-center rounded-xl">
+				<div style="background: #F48C06;" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
+					<img src="/img/oven.png" alt="" height="40" width="40">
+				</div>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken"><b>Ремонт электрические / газовые печи</b></h1>
+				<p class="px-4 text-gray-500">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+			</div>
+			<div data-aos="fade-up" data-aos-delay="300" class="bg-white shadow-xl p-6 text-center rounded-xl">
+				<div style="background: #29B9E7;" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
+					<img src="/img/vacuum.png" alt="" height="30" width="30">
+				</div>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken lg:h-14 pt-3"><b>Ремонт пылесосов</b></h1>
+				<p class="px-4 text-gray-500">Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization </p>
+			</div>
+		</div>
+		<!-- card -->
+		<div class="grid md:grid-cols-3 gap-14 md:gap-5 mt-20">
+			<div data-aos="fade-up" class="bg-white shadow-xl p-6 text-center rounded-xl">
+				<div style="background: #1cbe52;" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
+					<img src="/img/water-heater (1).png" alt="" height="40" width="40">
+				</div>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken"><b>Ремонт электроводонагревателей</b></h1>
+				<p class="px-4 text-gray-500">Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+			</div>
+			<div data-aos="fade-up" data-aos-delay="150" class="bg-white shadow-xl p-6 text-center rounded-xl">
+				<div style="background: #d30c0c;" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
+					<img src="/img/money.png" alt="" height="40" width="40">
+				</div>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken"><b>Скупка неисправной бытовой техники</b></h1>
+				<p class="px-4 text-gray-500">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+			</div>
+			<div data-aos="fade-up" data-aos-delay="300" class="bg-white shadow-xl p-6 text-center rounded-xl">
+				<div style="background: #6749ec;" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
+					
+				</div>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken lg:h-14 pt-3">Customer Tracking</h1>
+				<p class="px-4 text-gray-500">Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization </p>
+			</div>
+		</div>
+
+
+
+	<footer class="mt-32" style="background-color: rgba(37, 38, 65, 1);">
+		<div class="max-w-lg mx-auto">
+			
+			
+			
+			<div class="text-center text-white">
+				<p class="my-3 text-gray-400 text-sm">&copy; 2024 Ремонт бытовой техники в Орше </p>
+				
+			</div>
+		</div>
+	</footer>
+
+	<!-- AOS init -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    	AOS.init();
+    </script>
+</body>
+</html>
